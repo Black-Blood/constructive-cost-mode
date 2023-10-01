@@ -1,12 +1,14 @@
 import "./globals.css"
-import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import type { Metadata } from 'next'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
     title: "Конструктивна модель вартості",
     description: "Конструктивна модель вартості для оцінки трудомісткості розробки програмних продуктів",
+    manifest: "manifest.json",
+    themeColor: "#ffffff",
 }
 
 export default function RootLayout({
