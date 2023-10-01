@@ -161,12 +161,3 @@ main {
         color: darkblue;
     }
 }
-
-.post-meta {
-    container-type: inline-size;
-}
-
-.post-excerpt {
-    container-type: inline-size;
-    container-name: excerpt;
-}
